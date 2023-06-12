@@ -1,5 +1,4 @@
-﻿
-//ტემპერატურა
+﻿//ტემპერატურა
 Console.WriteLine("Write ypur celsius");
 String usercelsius = Console.ReadLine();
 
@@ -17,4 +16,3 @@ else
 {
     Console.WriteLine("it's hot");
 }
-
