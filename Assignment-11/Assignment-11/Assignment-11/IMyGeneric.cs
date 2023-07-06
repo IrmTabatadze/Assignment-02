@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Assignment_11
 {
-    public interface GenericInterface<T>
+    public interface IMyGeneric<T>
     {
-        int Add{get; }
-        int Substract { get; }
-        int Multiply { get; }
+        public T Value { get; set; }
+
     }
+
 }

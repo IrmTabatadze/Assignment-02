@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_11
 {
-    public class Toyota4Runner: OffRoad, IEquatable<Toyota4Runner>
+    public class Toyota4Runner: OffRoad
     {
         public Toyota4Runner() 
         { 

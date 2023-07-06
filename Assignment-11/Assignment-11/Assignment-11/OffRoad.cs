@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Assignment_11
 {
-    public class OffRoad: Car
-    {
+    public class OffRoad
+        {
+        public int Name 
+        { 
+            get; 
+            set; 
+        }
+        public string Color 
+        { 
+            get; 
+            set; 
+        }
+
     }
 }

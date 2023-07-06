@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_11
 {
-    public class Car
+    public interface ICar<T>
     {
+
         public int Name { get; set; }
         public string Color { get; set; }
         
@@ -23,7 +24,7 @@ namespace Assignment_11
             }
             else
             {
-                Console.WriteLine("This car not SUV");
+                Console.WriteLine("This car is SUV");
             }
             
         }
