@@ -10,6 +10,7 @@ namespace Assignment_11
 {
     public class OperatorClass<T> : IMath<T> where T : class
     {
+        //private T[] items;
         //private T _value1;
         //private T _value2;
         //T Value1;

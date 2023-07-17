@@ -53,7 +53,6 @@ namespace Task1
             Console.WriteLine(Result.GetValue(MyInstance, null));
             Result.SetValue(MyInstance, CarColor); 
 
-            //Console.WriteLine();
         }
         public void ReturnCarType(Type MyClassType, object MyInstance, string cartype)
         {
